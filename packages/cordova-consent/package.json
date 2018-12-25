@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "cordova-plugin-consent",
+  "version": "0.15.0",
+  "description": "Google Consent SDK Cordova Plugin",
+  "main": "www/consent.js",
+  "typings": "www/consent.d.ts",
+  "scripts": {
+    "prepare": "rollup -c"
+  },
+  "devDependencies": {
+    "@types/cordova": "^0.0.34",
+    "@types/node": "^10.12.10",
+    "rollup": "^0.67.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1"
+  },
+  "author": "Ratson",
+  "license": "MIT",
+  "repository": "admob-plus/admob-plus",
+  "keywords": [
+    "cordova",
+    "plugin",
+    "google",
+    "consent",
+    "ecosystem:cordova"
+  ],
+  "cordova": {
+    "id": "cordova-plugin-consent",
+    "platforms": [
+      "android"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "concise-esnext"
+    ]
+  }
+}
