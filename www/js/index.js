@@ -1,22 +1,4 @@
 'use strict'
-const appCredantialsReward = {
-      // replace with your ad unit IDs
-      android: 'ca-app-pub-3756352465808334/2373383295',
-      ios: 'ca-app-pub-3756352465808334/2373383295',
-    },
-const appCredantialsBanner = {
-      // replace with your ad unit IDs
-      android: 'ca-app-pub-3756352465808334/4233988827',
-      ios: 'ca-app-pub-3756352465808334/4233988827',
-    },
-
-const appCredantialsIndustrial = {
-      // replace with your ad unit IDs
-      android: 'ca-app-pub-3756352465808334/3144452216',
-      ios: 'ca-app-pub-3756352465808334/3144452216',
-    },
-
-
 const app = {
   initialize() {
     document.addEventListener(
@@ -35,13 +17,31 @@ const app = {
   },
 
   showAds() {
-    admob.banner.show({ id: appCredantialsBanner }).catch(console.log)
+    admob.banner.show({ 
+      id: {
+      android: 'ca-app-pub-3756352465808334/3144452216',
+      ios: 'ca-app-pub-3756352465808334/3144452216',
+    }, 
+
+     }).catch(console.log)
     admob.interstitial
-      .load({ id: appCredantialsIndustrial })
+      .load({
+       id: {
+      android: 'ca-app-pub-3756352465808334/3144452216',
+      ios: 'ca-app-pub-3756352465808334/3144452216',
+    },
+   })
       .then(() => admob.interstitial.show())
       .catch(console.log)
     admob.rewardVideo
-      .load({ id: appCredantialsReward })
+      .load({ 
+      id: {
+      // replace with your ad unit IDs
+      android: 'ca-app-pub-3756352465808334/2373383295',
+      ios: 'ca-app-pub-3756352465808334/2373383295',
+    },
+
+       })
       .then(() => admob.rewardVideo.show())
       .catch(console.log)
   },
