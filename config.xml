@@ -26,4 +26,5 @@
         <variable name="PLAY_SERVICES_VERSION" value="17.1.2" />
         <variable name="APP_ID_IOS" value="test" />
     </plugin>
+    <preference name="phonegap-version" value="cli-8.0.0" />
 </widget>
