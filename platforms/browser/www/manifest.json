@@ -1,0 +1,9 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "AdmobBasicExample",
+  "short_name": "AdmobBasicExample",
+  "version": "example.admob.basic",
+  "icons": [],
+  "start_url": "index.html"
+}

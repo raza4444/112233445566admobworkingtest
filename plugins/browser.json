@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-admob-plus": {
+      "PACKAGE_NAME": "example.admob.basic"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "example.admob.basic"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "example.admob.basic"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "example.admob.basic"
+    }
+  }
+}
