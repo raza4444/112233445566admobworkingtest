@@ -11,7 +11,7 @@ const app = {
 
   onDeviceReady() {
     this.receivedEvent('deviceready')
-
+    this.onesignalNotification();
     this.showAds()
   },
 
@@ -25,6 +25,17 @@ const app = {
       .load({ id: 'test' })
       .then(() => admob.rewardVideo.show())
       .catch(console.log)
+  },
+  onesignalNotification()
+  {
+    var notificationOpenedCallback = function(jsonData) {
+    console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+  };
+
+  window.plugins.OneSignal
+    .startInit("4e466e0e-4389-4c50-974f-40a0d634fd6b")
+    .handleNotificationOpened(notificationOpenedCallback)
+    .endInit();
   },
 
   receivedEvent(id) {

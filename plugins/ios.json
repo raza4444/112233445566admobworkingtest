@@ -13,6 +13,9 @@
     "cordova-admob-plus": {
       "APP_ID_IOS": "test",
       "PACKAGE_NAME": "com.example.hello"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.example.hello"
     }
   },
   "dependent_plugins": {

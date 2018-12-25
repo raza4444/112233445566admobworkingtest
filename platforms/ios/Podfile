@@ -3,4 +3,5 @@ platform :ios, '8.0'
 target 'C:\cordova\admobPlusTest\platforms\ios\admobTest' do
 	project 'C:\cordova\admobPlusTest\platforms\ios\admobTest.xcodeproj'
 	pod 'Google-Mobile-Ads-SDK', '~> 7.37'
+	pod 'OneSignal', '2.9.4'
 end

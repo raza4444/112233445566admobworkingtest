@@ -27,4 +27,5 @@
         <variable name="APP_ID_IOS" value="test" />
     </plugin>
     <preference name="phonegap-version" value="cli-8.0.0" />
+    <plugin name="onesignal-cordova-plugin" spec="^2.4.6" />
 </widget>

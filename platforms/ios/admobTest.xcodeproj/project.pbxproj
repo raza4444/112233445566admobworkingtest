@@ -22,6 +22,8 @@
 		E3EB12A5149E4B4A9774D04B /* AMSInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5116532C84028BD2CF51C /* AMSInterstitial.swift */; };
 		AD536550E8F94738845631E0 /* AMSPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077517D9ED584485B92797B9 /* AMSPlugin.swift */; };
 		D0A9A9AD60BB44F88A1812D0 /* AMSRewardVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C06AF8A9884653B95B59AD /* AMSRewardVideo.swift */; };
+		E55F46257B7341E089A5B2E6 /* OneSignalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B3DDC1248241E5B5F863E0 /* OneSignalPush.m */; };
+		9719A636DC604D83B66A26FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D20867197BA4FCE857B9EC7 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,9 @@
 		077517D9ED584485B92797B9 /* AMSPlugin.swift */ = {isa = PBXFileReference; name = "AMSPlugin.swift"; path = "cordova-admob-plus/AMSPlugin.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
 		E4C06AF8A9884653B95B59AD /* AMSRewardVideo.swift */ = {isa = PBXFileReference; name = "AMSRewardVideo.swift"; path = "cordova-admob-plus/AMSRewardVideo.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
 		203048706B9B4091999AF903 /* AMSPlugin-Bridging-Header.h */ = {isa = PBXFileReference; name = "AMSPlugin-Bridging-Header.h"; path = "cordova-admob-plus/AMSPlugin-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F0B3DDC1248241E5B5F863E0 /* OneSignalPush.m */ = {isa = PBXFileReference; name = "OneSignalPush.m"; path = "onesignal-cordova-plugin/OneSignalPush.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9A00C2531B374448A6283CCC /* OneSignalPush.h */ = {isa = PBXFileReference; name = "OneSignalPush.h"; path = "onesignal-cordova-plugin/OneSignalPush.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0D20867197BA4FCE857B9EC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				9719A636DC604D83B66A26FA /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +153,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D20867197BA4FCE857B9EC7 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,6 +186,8 @@
 				077517D9ED584485B92797B9 /* AMSPlugin.swift */,
 				E4C06AF8A9884653B95B59AD /* AMSRewardVideo.swift */,
 				203048706B9B4091999AF903 /* AMSPlugin-Bridging-Header.h */,
+				F0B3DDC1248241E5B5F863E0 /* OneSignalPush.m */,
+				9A00C2531B374448A6283CCC /* OneSignalPush.h */,
 			);
 			name = Plugins;
 			path = "admobTest/Plugins";
@@ -297,6 +306,7 @@
 				E3EB12A5149E4B4A9774D04B /* AMSInterstitial.swift in Sources */,
 				AD536550E8F94738845631E0 /* AMSPlugin.swift in Sources */,
 				D0A9A9AD60BB44F88A1812D0 /* AMSRewardVideo.swift in Sources */,
+				E55F46257B7341E089A5B2E6 /* OneSignalPush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

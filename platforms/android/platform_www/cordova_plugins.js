@@ -7,13 +7,22 @@ module.exports = [
     "clobbers": [
       "admob"
     ]
+  },
+  {
+    "id": "onesignal-cordova-plugin.OneSignal",
+    "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+    "pluginId": "onesignal-cordova-plugin",
+    "clobbers": [
+      "OneSignal"
+    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
   "cordova-plugin-whitelist": "1.3.3",
-  "cordova-admob-plus": "0.0.0"
+  "cordova-admob-plus": "0.0.0",
+  "onesignal-cordova-plugin": "2.4.6"
 };
 // BOTTOM OF METADATA
 });

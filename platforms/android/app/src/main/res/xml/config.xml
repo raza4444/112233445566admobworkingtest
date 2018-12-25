@@ -24,4 +24,7 @@
     <feature name="AdMob">
         <param name="android-package" value="admob.plugin.AdMob" />
     </feature>
+    <feature name="OneSignalPush">
+        <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
+    </feature>
 </widget>

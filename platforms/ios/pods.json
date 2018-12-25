@@ -4,5 +4,11 @@
         "type": "podspec",
         "spec": "~> 7.37",
         "count": 1
+    },
+    "OneSignal": {
+        "name": "OneSignal",
+        "type": "podspec",
+        "spec": "2.9.4",
+        "count": 1
     }
 }
