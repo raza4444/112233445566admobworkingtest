@@ -13,8 +13,15 @@ function ShowBanner() {
 
 function hideBanner()
 {
-	admob.banner.hide();
-}
+	    admob.banner.hide({ 
+      id: {
+      android: 'ca-app-pub-3756352465808334/4233988827',
+      ios: 'ca-app-pub-3756352465808334/4233988827',
+    }, 
+
+     }).catch(console.log);
+
+	}
 
 function prepareIndustrial() {
 admob.interstitial
