@@ -9,7 +9,15 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-admob-plus": {
+      "APP_ID_IOS": "test",
+      "PACKAGE_NAME": "com.example.hello"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  }
 }

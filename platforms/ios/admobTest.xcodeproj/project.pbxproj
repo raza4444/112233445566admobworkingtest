@@ -16,6 +16,12 @@
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		2C04446848F7473C9616C56F /* AMSAdBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955877E95A4147BDB0E82CA0 /* AMSAdBase.swift */; };
+		BA1E44EC60BB4D39892BD2BF /* AMSBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE8E7CE19A4AF8B78F9BE1 /* AMSBanner.swift */; };
+		6208766D8F1D487A9539D06E /* AMSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239E838C6CD4D7E9F8E4542 /* AMSConstants.swift */; };
+		E3EB12A5149E4B4A9774D04B /* AMSInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5116532C84028BD2CF51C /* AMSInterstitial.swift */; };
+		AD536550E8F94738845631E0 /* AMSPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077517D9ED584485B92797B9 /* AMSPlugin.swift */; };
+		D0A9A9AD60BB44F88A1812D0 /* AMSRewardVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C06AF8A9884653B95B59AD /* AMSRewardVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,13 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "admobTest/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		955877E95A4147BDB0E82CA0 /* AMSAdBase.swift */ = {isa = PBXFileReference; name = "AMSAdBase.swift"; path = "cordova-admob-plus/AMSAdBase.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		92EE8E7CE19A4AF8B78F9BE1 /* AMSBanner.swift */ = {isa = PBXFileReference; name = "AMSBanner.swift"; path = "cordova-admob-plus/AMSBanner.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		5239E838C6CD4D7E9F8E4542 /* AMSConstants.swift */ = {isa = PBXFileReference; name = "AMSConstants.swift"; path = "cordova-admob-plus/AMSConstants.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		B7B5116532C84028BD2CF51C /* AMSInterstitial.swift */ = {isa = PBXFileReference; name = "AMSInterstitial.swift"; path = "cordova-admob-plus/AMSInterstitial.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		077517D9ED584485B92797B9 /* AMSPlugin.swift */ = {isa = PBXFileReference; name = "AMSPlugin.swift"; path = "cordova-admob-plus/AMSPlugin.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		E4C06AF8A9884653B95B59AD /* AMSRewardVideo.swift */ = {isa = PBXFileReference; name = "AMSRewardVideo.swift"; path = "cordova-admob-plus/AMSRewardVideo.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		203048706B9B4091999AF903 /* AMSPlugin-Bridging-Header.h */ = {isa = PBXFileReference; name = "AMSPlugin-Bridging-Header.h"; path = "cordova-admob-plus/AMSPlugin-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +172,13 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				955877E95A4147BDB0E82CA0 /* AMSAdBase.swift */,
+				92EE8E7CE19A4AF8B78F9BE1 /* AMSBanner.swift */,
+				5239E838C6CD4D7E9F8E4542 /* AMSConstants.swift */,
+				B7B5116532C84028BD2CF51C /* AMSInterstitial.swift */,
+				077517D9ED584485B92797B9 /* AMSPlugin.swift */,
+				E4C06AF8A9884653B95B59AD /* AMSRewardVideo.swift */,
+				203048706B9B4091999AF903 /* AMSPlugin-Bridging-Header.h */,
 			);
 			name = Plugins;
 			path = "admobTest/Plugins";
@@ -271,6 +291,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				2C04446848F7473C9616C56F /* AMSAdBase.swift in Sources */,
+				BA1E44EC60BB4D39892BD2BF /* AMSBanner.swift in Sources */,
+				6208766D8F1D487A9539D06E /* AMSConstants.swift in Sources */,
+				E3EB12A5149E4B4A9774D04B /* AMSInterstitial.swift in Sources */,
+				AD536550E8F94738845631E0 /* AMSPlugin.swift in Sources */,
+				D0A9A9AD60BB44F88A1812D0 /* AMSRewardVideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

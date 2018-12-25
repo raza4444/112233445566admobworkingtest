@@ -6,5 +6,25 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-admob-plus": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-admob-plus@^0.24.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID_ANDROID": "ca-app-pub-3940256099942544~3347511713",
+      "PLAY_SERVICES_VERSION": "17.1.2",
+      "APP_ID_IOS": "test"
+    }
+  },
+  "cordova-plugin-add-swift-support": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-add-swift-support@^1.7.2"
+    },
+    "is_top_level": false,
+    "variables": {}
   }
 }

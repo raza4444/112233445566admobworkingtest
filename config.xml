@@ -18,11 +18,12 @@
         <preference name="UseSwiftLanguageVersion" value="4" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
-    <plugin name="cordova-admob-plus" spec="https://github.com/raza4444/qqqqqqqqqqwwqednasdkandkadnaksdnakdandkasndkadnakdandkandkadnakdandkadjksdfajks-wjrnasionoeiqneioqe">
-        <variable name="APP_ID_ANDROID" value="ca-app-pub-3940256099942544~3347511713" />
-        <variable name="APP_ID_IOS" value="test" />
-    </plugin>
     <engine name="ios" spec="4.5.5" />
     <engine name="android" spec="7.1.4" />
     <engine name="browser" spec="5.0.4" />
+    <plugin name="cordova-admob-plus" spec="~0.24.1">
+        <variable name="APP_ID_ANDROID" value="ca-app-pub-3940256099942544~3347511713" />
+        <variable name="PLAY_SERVICES_VERSION" value="17.1.2" />
+        <variable name="APP_ID_IOS" value="test" />
+    </plugin>
 </widget>

@@ -9,6 +9,11 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-admob-plus": {
+      "APP_ID_ANDROID": "ca-app-pub-3940256099942544~3347511713",
+      "PLAY_SERVICES_VERSION": "17.1.2",
+      "PACKAGE_NAME": "com.example.hello"
     }
   },
   "dependent_plugins": {}
