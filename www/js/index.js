@@ -19,8 +19,8 @@ const app = {
   showAds() {
     admob.banner.show({ 
       id: {
-      android: 'ca-app-pub-3756352465808334/3144452216',
-      ios: 'ca-app-pub-3756352465808334/3144452216',
+      android: 'ca-app-pub-3756352465808334/4233988827',
+      ios: 'ca-app-pub-3756352465808334/4233988827',
     }, 
 
      }).catch(console.log)
