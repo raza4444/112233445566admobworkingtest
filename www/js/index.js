@@ -14,6 +14,8 @@ const app = {
     this.receivedEvent('deviceready')
     this.onesignalNotification();
     this.showAds()
+
+    rewardVideo();
   },
 
 

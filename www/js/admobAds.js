@@ -11,6 +11,15 @@ function ShowBanner() {
 
 }
 
+function rewardVideo() {
+  admob.rewardVideo.load({
+    id: {
+      // replace with your ad unit IDs
+      android: 'ca-app-pub-3756352465808334/4233988827',
+      ios: 'ca-app-pub-3756352465808334/4233988827',
+    },
+  }).then(() => admob.rewardVideo.show())
+}
 function hideBanner()
 {
 	    admob.banner.hide({ 
