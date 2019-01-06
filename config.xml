@@ -17,7 +17,9 @@
         <allow-intent href="itms-apps:*" />
         <preference name="UseSwiftLanguageVersion" value="4" />
     </platform>
-<preference name="StatusBarOverlaysWebView" value="true" /> 
+   <preference name="android-targetSdkVersion" value="26" /> 
+   <preference name="android-build-tool" value="gradle" /> 
+   <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="onesignal" value="744dcc96-674d-4066-b170-cf66d893ed46" />
 <preference name="admobBannerId" value="ca-app-pub-2607313420010336/8685143803" />
 <preference name="admobInterstitialId" value="ca-app-pub-2607313420010336/1009053512" />
