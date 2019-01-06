@@ -7,7 +7,7 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
-    "registry": true,
+    "registry": false,
     "raw": "cordova-admob-plus@^0.24.1",
     "name": "cordova-admob-plus",
     "escapedName": "cordova-admob-plus",
