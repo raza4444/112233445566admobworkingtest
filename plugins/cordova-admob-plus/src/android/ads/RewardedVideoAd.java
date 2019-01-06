@@ -21,15 +21,15 @@ public class RewardedVideoAd extends AdBase {
     }
 
     public static boolean executeIsReadyAction(Action action, CallbackContext callbackContext) {
-        // plugin.cordova.getActivity().runOnUiThread(new Runnable() {
-        //     @Override
-        //     public void run() {
-        //         RewardedVideoAd rewardedVideoAd = (RewardedVideoAd) action.getAd();
+        /*plugin.cordova.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                RewardedVideoAd rewardedVideoAd = (RewardedVideoAd) action.getAd();
 
-        //         PluginResult result = new PluginResult(PluginResult.Status.OK, rewardedVideoAd != null && rewardedVideoAd.isReady());
-        //         callbackContext.sendPluginResult(result);
-        //     }
-        // });
+                PluginResult result = new PluginResult(PluginResult.Status.OK, rewardedVideoAd != null && rewardedVideoAd.isReady());
+                callbackContext.sendPluginResult(result);
+            }
+        });*/
 
         return true;
     }
