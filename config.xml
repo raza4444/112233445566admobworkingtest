@@ -31,9 +31,8 @@
     <preference name="SplashScreenBackgroundColor" value="white" />
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="YouTubeDataApiKey" value="AIzaSyD31XBoV7b6_9O9yD72n4EtoWxhFmL5Ej0" />
-    <engine name="ios" spec="4.5.5" />
-    <engine name="android" spec="7.1.4" />
-    <engine name="browser" spec="5.0.4" />
+<engine name="android" spec="^7.1.1" /> 
+<engine name="ios" spec="^4.5.5" /> 
     <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
     <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
     <plugin name="cordova-admob-plus" spec="^0.24.1">
@@ -47,5 +46,5 @@
     <plugin name="cordova-plugin-network-information" spec="2.0.1" />
     <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
     <plugin name="cordova-plugin-appversion" spec="^1.0.0" />
-        <plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer" spec="https://github.com/JonSmart/CordovaYoutubeVideoPlayer" />
+    <plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer" spec="https://github.com/JonSmart/CordovaYoutubeVideoPlayer.git" /> 
 </widget>
