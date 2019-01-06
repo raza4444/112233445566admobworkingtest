@@ -24,6 +24,9 @@
 		D0A9A9AD60BB44F88A1812D0 /* AMSRewardVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C06AF8A9884653B95B59AD /* AMSRewardVideo.swift */; };
 		E55F46257B7341E089A5B2E6 /* OneSignalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B3DDC1248241E5B5F863E0 /* OneSignalPush.m */; };
 		9719A636DC604D83B66A26FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D20867197BA4FCE857B9EC7 /* SystemConfiguration.framework */; };
+		37E4F71D082D4F7F8A899F58 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B84EAC2D4A4056A2753FA0 /* CDVSplashScreen.m */; };
+		EF4A0CA9EC164D83B5841508 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE73A7BFE462EA9FEF10B /* CDVViewController+SplashScreen.m */; };
+		C950473DBB6549C8BE28367C /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B0AFD7D1CE44FC8D91122D /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,12 @@
 		F0B3DDC1248241E5B5F863E0 /* OneSignalPush.m */ = {isa = PBXFileReference; name = "OneSignalPush.m"; path = "onesignal-cordova-plugin/OneSignalPush.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		9A00C2531B374448A6283CCC /* OneSignalPush.h */ = {isa = PBXFileReference; name = "OneSignalPush.h"; path = "onesignal-cordova-plugin/OneSignalPush.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		0D20867197BA4FCE857B9EC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		12B84EAC2D4A4056A2753FA0 /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FB0FE73A7BFE462EA9FEF10B /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		118DB8E42175484191F13228 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		778F23BA5EAC4689917B8DD1 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		02B0AFD7D1CE44FC8D91122D /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2C276BCE3A044EFAB5B337DF /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +197,12 @@
 				203048706B9B4091999AF903 /* AMSPlugin-Bridging-Header.h */,
 				F0B3DDC1248241E5B5F863E0 /* OneSignalPush.m */,
 				9A00C2531B374448A6283CCC /* OneSignalPush.h */,
+				12B84EAC2D4A4056A2753FA0 /* CDVSplashScreen.m */,
+				FB0FE73A7BFE462EA9FEF10B /* CDVViewController+SplashScreen.m */,
+				118DB8E42175484191F13228 /* CDVSplashScreen.h */,
+				778F23BA5EAC4689917B8DD1 /* CDVViewController+SplashScreen.h */,
+				02B0AFD7D1CE44FC8D91122D /* CDVStatusBar.m */,
+				2C276BCE3A044EFAB5B337DF /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "admobTest/Plugins";
@@ -307,6 +322,9 @@
 				AD536550E8F94738845631E0 /* AMSPlugin.swift in Sources */,
 				D0A9A9AD60BB44F88A1812D0 /* AMSRewardVideo.swift in Sources */,
 				E55F46257B7341E089A5B2E6 /* OneSignalPush.m in Sources */,
+				37E4F71D082D4F7F8A899F58 /* CDVSplashScreen.m in Sources */,
+				EF4A0CA9EC164D83B5841508 /* CDVViewController+SplashScreen.m in Sources */,
+				C950473DBB6549C8BE28367C /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

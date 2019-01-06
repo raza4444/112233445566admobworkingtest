@@ -1,8 +1,8 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "AdmobBasicExample",
-  "short_name": "AdmobBasicExample",
+  "name": "Umer App Test",
+  "short_name": "Umer App Test",
   "version": "example.admob.basic",
   "icons": [],
   "start_url": "index.html"

@@ -15,6 +15,12 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "example.admob.basic"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "example.admob.basic"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "example.admob.basic"
     }
   },
   "dependent_plugins": {
