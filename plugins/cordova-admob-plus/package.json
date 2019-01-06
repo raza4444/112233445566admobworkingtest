@@ -95,7 +95,7 @@
   "name": "cordova-admob-plus",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/admob-plus/admossb-plus.git"
+    "url": "git+https://github.com/admob-plus/admob-plus.git"
   },
   "scripts": {
     "prepare": "run-s prepare:*",
