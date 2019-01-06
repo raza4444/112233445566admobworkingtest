@@ -29,7 +29,6 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="FadeSplashScreenDuration" value="400" />
     <preference name="SplashScreenBackgroundColor" value="white" />
-    <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="YouTubeDataApiKey" value="AIzaSyD31XBoV7b6_9O9yD72n4EtoWxhFmL5Ej0" />
     <engine name="ios" spec="4.5.5" />
     <engine name="android" spec="7.1.4" />
@@ -41,12 +40,11 @@
         <variable name="PLAY_SERVICES_VERSION" value="17.1.2" />
         <variable name="APP_ID_IOS" value="test" />
     </plugin>
-    <plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer" spec="https://github.com/JonSmart/CordovaYoutubeVideoPlayer" />
-    <plugin name="onesignal-cordova-plugin" spec="2.4.6" />
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
     <plugin name="cordova-plugin-network-information" spec="2.0.1" />
     <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
     <plugin name="cordova-plugin-appversion" spec="^1.0.0" />
+    <plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer" spec="https://github.com/JonSmart/CordovaYoutubeVideoPlayer" />
 
 </widget>
