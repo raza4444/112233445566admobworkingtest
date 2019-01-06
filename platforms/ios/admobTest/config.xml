@@ -42,6 +42,9 @@
     <feature name="RareloopAppVersion">
         <param name="ios-package" value="RareloopAppVersion" />
     </feature>
+    <feature name="YoutubeVideoPlayer">
+        <param name="ios-package" value="YoutubeVideoPlayer" />
+    </feature>
     <name>Umer App Test</name>
     <content src="index.html" />
     <access origin="*" />

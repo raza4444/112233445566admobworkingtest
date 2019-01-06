@@ -44,6 +44,9 @@
     },
     "cordova-plugin-appversion": {
       "PACKAGE_NAME": "example.admob.basic"
+    },
+    "com.bunkerpalace.cordova.YoutubeVideoPlayer": {
+      "PACKAGE_NAME": "example.admob.basic"
     }
   },
   "dependent_plugins": {},
@@ -136,6 +139,14 @@
       "clobbers": [
         "AppVersion"
       ]
+    },
+    {
+      "file": "plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/www/YoutubeVideoPlayer.js",
+      "id": "com.bunkerpalace.cordova.YoutubeVideoPlayer.YoutubeVideoPlayer",
+      "pluginId": "com.bunkerpalace.cordova.YoutubeVideoPlayer",
+      "clobbers": [
+        "YoutubeVideoPlayer"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -147,6 +158,7 @@
     "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-network-information": "2.0.1",
     "cordova-plugin-customconfigparameters": "3.0.0",
-    "cordova-plugin-appversion": "1.0.0"
+    "cordova-plugin-appversion": "1.0.0",
+    "com.bunkerpalace.cordova.YoutubeVideoPlayer": "1.0.5"
   }
 }

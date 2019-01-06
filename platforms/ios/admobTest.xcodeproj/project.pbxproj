@@ -32,6 +32,16 @@
 		91C6386B75EA4EEF8D8E5241 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259778CE86164B77870B4453 /* CoreTelephony.framework */; };
 		25527A2C867A49C89A3B421B /* CustomConfigParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D4CA9C312745889AEBD457 /* CustomConfigParameters.m */; };
 		F393D06948E24CBEA53EEBF2 /* RareloopAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF1DD7C506401FBE11B817 /* RareloopAppVersion.m */; };
+		F1D2EE4D34F34E3D8C19D93B /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ED26189CF26E45FAA62F4623 /* XCDYouTubeClient.m */; };
+		89B6DF619F7C42078EDDA730 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BFADAF4AEF45939B5814FA /* XCDYouTubePlayerScript.m */; };
+		0EC3AED733A649B9AC7D6EE9 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C17939AC6844D69E028E73 /* XCDYouTubeVideo.m */; };
+		86C5A16EB43F4533AFB5AEAB /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E7F9DE39F54495BA36972F /* XCDYouTubeVideoOperation.m */; };
+		48325C35C0734EEA8B591A48 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8337E13A87FE40D59A1E1EEE /* XCDYouTubeVideoPlayerViewController.m */; };
+		040CCF6E2DD44A1F8689C422 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ED3AAFF63F48288485D5C8 /* XCDYouTubeVideoWebpage.m */; };
+		18640D1FBF2E481B9683C101 /* YoutubeVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE814980A4C90BF42CF2A /* YoutubeVideoPlayer.m */; };
+		E5EAEDE7713B4DC8983212B7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEFBB7BD35C42698F5E3EDF /* MediaPlayer.framework */; };
+		429A12139FFD41ABA8E1B710 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5503BB46D584A6A8531118F /* AVFoundation.framework */; };
+		2C50B13AD54647A88B3AC363 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC62DEAF3F3240C4B37A70D2 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +107,27 @@
 		3B70513E02A4454FA2D79A56 /* CustomConfigParameters.h */ = {isa = PBXFileReference; name = "CustomConfigParameters.h"; path = "cordova-plugin-customconfigparameters/CustomConfigParameters.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		FDAF1DD7C506401FBE11B817 /* RareloopAppVersion.m */ = {isa = PBXFileReference; name = "RareloopAppVersion.m"; path = "cordova-plugin-appversion/RareloopAppVersion.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		8CFC26D3E2CF42B0BB7FF415 /* RareloopAppVersion.h */ = {isa = PBXFileReference; name = "RareloopAppVersion.h"; path = "cordova-plugin-appversion/RareloopAppVersion.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		ED26189CF26E45FAA62F4623 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; name = "XCDYouTubeClient.m"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeClient.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C5BFADAF4AEF45939B5814FA /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; name = "XCDYouTubePlayerScript.m"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubePlayerScript.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		29C17939AC6844D69E028E73 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; name = "XCDYouTubeVideo.m"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideo.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F0E7F9DE39F54495BA36972F /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; name = "XCDYouTubeVideoOperation.m"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideoOperation.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		8337E13A87FE40D59A1E1EEE /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; name = "XCDYouTubeVideoPlayerViewController.m"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideoPlayerViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B8ED3AAFF63F48288485D5C8 /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; name = "XCDYouTubeVideoWebpage.m"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideoWebpage.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FAAAE814980A4C90BF42CF2A /* YoutubeVideoPlayer.m */ = {isa = PBXFileReference; name = "YoutubeVideoPlayer.m"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/YoutubeVideoPlayer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F8768AC38F5942E9987C2E71 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; name = "XCDYouTubeClient.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeClient.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D73A49D6441E4D85BA2509FA /* XCDYouTubeError.h */ = {isa = PBXFileReference; name = "XCDYouTubeError.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeError.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5CC1E68203D146FCAD61D905 /* XCDYouTubeKit.h */ = {isa = PBXFileReference; name = "XCDYouTubeKit.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeKit.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		64FE371A0E6E4FC1ADA3F663 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; name = "XCDYouTubeOperation.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeOperation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		684108F691DB4839A37C1223 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; name = "XCDYouTubePlayerScript.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubePlayerScript.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C3C89BAA3CBD4C6C897F9D85 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideo.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideo.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		CA776B6FFACD4644B48718F8 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideo+Private.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5CB4B72B92A4450CA16839F1 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideoOperation.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideoOperation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0532257CB73E422DA3AF3A71 /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideoPlayerViewController.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideoPlayerViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E48636C6460042BE8F4EB72B /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideoWebpage.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/XCDYouTubeVideoWebpage.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AEEF932E92DE4B16BF28B4F3 /* YoutubeVideoPlayer.h */ = {isa = PBXFileReference; name = "YoutubeVideoPlayer.h"; path = "com.bunkerpalace.cordova.YoutubeVideoPlayer/YoutubeVideoPlayer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9BEFBB7BD35C42698F5E3EDF /* MediaPlayer.framework */ = {isa = PBXFileReference; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C5503BB46D584A6A8531118F /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		BC62DEAF3F3240C4B37A70D2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; name = "JavaScriptCore.framework"; path = "System/Library/Frameworks/JavaScriptCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +138,9 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				9719A636DC604D83B66A26FA /* SystemConfiguration.framework in Frameworks */,
 				91C6386B75EA4EEF8D8E5241 /* CoreTelephony.framework in Frameworks */,
+				E5EAEDE7713B4DC8983212B7 /* MediaPlayer.framework in Frameworks */,
+				429A12139FFD41ABA8E1B710 /* AVFoundation.framework in Frameworks */,
+				2C50B13AD54647A88B3AC363 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +213,9 @@
 			children = (
 				0D20867197BA4FCE857B9EC7 /* SystemConfiguration.framework */,
 				259778CE86164B77870B4453 /* CoreTelephony.framework */,
+				9BEFBB7BD35C42698F5E3EDF /* MediaPlayer.framework */,
+				C5503BB46D584A6A8531118F /* AVFoundation.framework */,
+				BC62DEAF3F3240C4B37A70D2 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -227,6 +264,24 @@
 				3B70513E02A4454FA2D79A56 /* CustomConfigParameters.h */,
 				FDAF1DD7C506401FBE11B817 /* RareloopAppVersion.m */,
 				8CFC26D3E2CF42B0BB7FF415 /* RareloopAppVersion.h */,
+				ED26189CF26E45FAA62F4623 /* XCDYouTubeClient.m */,
+				C5BFADAF4AEF45939B5814FA /* XCDYouTubePlayerScript.m */,
+				29C17939AC6844D69E028E73 /* XCDYouTubeVideo.m */,
+				F0E7F9DE39F54495BA36972F /* XCDYouTubeVideoOperation.m */,
+				8337E13A87FE40D59A1E1EEE /* XCDYouTubeVideoPlayerViewController.m */,
+				B8ED3AAFF63F48288485D5C8 /* XCDYouTubeVideoWebpage.m */,
+				FAAAE814980A4C90BF42CF2A /* YoutubeVideoPlayer.m */,
+				F8768AC38F5942E9987C2E71 /* XCDYouTubeClient.h */,
+				D73A49D6441E4D85BA2509FA /* XCDYouTubeError.h */,
+				5CC1E68203D146FCAD61D905 /* XCDYouTubeKit.h */,
+				64FE371A0E6E4FC1ADA3F663 /* XCDYouTubeOperation.h */,
+				684108F691DB4839A37C1223 /* XCDYouTubePlayerScript.h */,
+				C3C89BAA3CBD4C6C897F9D85 /* XCDYouTubeVideo.h */,
+				CA776B6FFACD4644B48718F8 /* XCDYouTubeVideo+Private.h */,
+				5CB4B72B92A4450CA16839F1 /* XCDYouTubeVideoOperation.h */,
+				0532257CB73E422DA3AF3A71 /* XCDYouTubeVideoPlayerViewController.h */,
+				E48636C6460042BE8F4EB72B /* XCDYouTubeVideoWebpage.h */,
+				AEEF932E92DE4B16BF28B4F3 /* YoutubeVideoPlayer.h */,
 			);
 			name = Plugins;
 			path = "admobTest/Plugins";
@@ -353,6 +408,13 @@
 				73656DC8CFFF4A228DA3535D /* CDVReachability.m in Sources */,
 				25527A2C867A49C89A3B421B /* CustomConfigParameters.m in Sources */,
 				F393D06948E24CBEA53EEBF2 /* RareloopAppVersion.m in Sources */,
+				F1D2EE4D34F34E3D8C19D93B /* XCDYouTubeClient.m in Sources */,
+				89B6DF619F7C42078EDDA730 /* XCDYouTubePlayerScript.m in Sources */,
+				0EC3AED733A649B9AC7D6EE9 /* XCDYouTubeVideo.m in Sources */,
+				86C5A16EB43F4533AFB5AEAB /* XCDYouTubeVideoOperation.m in Sources */,
+				48325C35C0734EEA8B591A48 /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				040CCF6E2DD44A1F8689C422 /* XCDYouTubeVideoWebpage.m in Sources */,
+				18640D1FBF2E481B9683C101 /* YoutubeVideoPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

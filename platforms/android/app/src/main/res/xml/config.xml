@@ -24,6 +24,11 @@
     <feature name="CustomConfigParameters">
         <param name="android-package" value="org.apache.cordova.customconfigparameters.CustomConfigParameters" />
     </feature>
+    <widget>
+        <feature name="YoutubeVideoPlayer">
+            <param name="android-package" value="com.bunkerpalace.cordova.YoutubeVideoPlayer" />
+        </feature>
+    </widget>
     <feature name="RareloopAppVersion">
         <param name="android-package" value="com.rareloop.cordova.appversion.RareloopAppVersion" />
     </feature>

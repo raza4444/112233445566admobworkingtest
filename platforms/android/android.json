@@ -36,6 +36,12 @@
               "xml": "<feature name=\"CustomConfigParameters\"><param name=\"android-package\" value=\"org.apache.cordova.customconfigparameters.CustomConfigParameters\" /></feature>",
               "count": 1
             }
+          ],
+          "widget": [
+            {
+              "xml": "<feature name=\"YoutubeVideoPlayer\"><param name=\"android-package\" value=\"com.bunkerpalace.cordova.YoutubeVideoPlayer\" /></feature>",
+              "count": 1
+            }
           ]
         }
       },
@@ -57,6 +63,14 @@
             {
               "xml": "<receiver android:name=\"com.onesignal.ADMMessageHandler$Receiver\" android:permission=\"com.amazon.device.messaging.permission.SEND\"><intent-filter><action android:name=\"com.amazon.device.messaging.intent.REGISTRATION\" /><action android:name=\"com.amazon.device.messaging.intent.RECEIVE\" /><category android:name=\"com.example.hello\" /></intent-filter></receiver>",
               "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"com.keyes.youtube.OpenYouTubePlayerActivity\" android:screenOrientation=\"landscape\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:label=\"@string/activity_name\" android:launchMode=\"singleTop\" android:name=\"com.bunkerpalace.cordova.YouTubeActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" android:windowSoftInputMode=\"adjustResize\" />",
+              "count": 1
             }
           ],
           "/manifest": [
@@ -70,6 +84,10 @@
             },
             {
               "xml": "<uses-permission android:name=\"com.example.hello.permission.RECEIVE_ADM_MESSAGE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
               "count": 1
             }
           ],
@@ -118,6 +136,9 @@
       "PACKAGE_NAME": "example.admob.basic"
     },
     "cordova-plugin-appversion": {
+      "PACKAGE_NAME": "example.admob.basic"
+    },
+    "com.bunkerpalace.cordova.YoutubeVideoPlayer": {
       "PACKAGE_NAME": "example.admob.basic"
     }
   },
@@ -187,6 +208,14 @@
       "clobbers": [
         "AppVersion"
       ]
+    },
+    {
+      "id": "com.bunkerpalace.cordova.YoutubeVideoPlayer.YoutubeVideoPlayer",
+      "file": "plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/www/YoutubeVideoPlayer.js",
+      "pluginId": "com.bunkerpalace.cordova.YoutubeVideoPlayer",
+      "clobbers": [
+        "YoutubeVideoPlayer"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -197,6 +226,7 @@
     "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-network-information": "2.0.1",
     "cordova-plugin-customconfigparameters": "3.0.0",
-    "cordova-plugin-appversion": "1.0.0"
+    "cordova-plugin-appversion": "1.0.0",
+    "com.bunkerpalace.cordova.YoutubeVideoPlayer": "1.0.5"
   }
 }

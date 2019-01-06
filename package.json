@@ -21,6 +21,7 @@
     "dev-ios:open": "open platforms/ios/AdmobBasicExample.xcworkspace"
   },
   "dependencies": {
+    "com.bunkerpalace.cordova.YoutubeVideoPlayer": "git+https://github.com/JonSmart/CordovaYoutubeVideoPlayer.git",
     "cordova-admob-plus": "^0.24.1",
     "cordova-android": "7.1.4",
     "cordova-browser": "5.0.4",
@@ -57,7 +58,8 @@
       "cordova-plugin-statusbar": {},
       "cordova-plugin-network-information": {},
       "cordova-plugin-customconfigparameters": {},
-      "cordova-plugin-appversion": {}
+      "cordova-plugin-appversion": {},
+      "com.bunkerpalace.cordova.YoutubeVideoPlayer": {}
     },
     "platforms": [
       "ios",

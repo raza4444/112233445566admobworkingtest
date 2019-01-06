@@ -1,4 +1,7 @@
 {
     "SystemConfiguration.framework": 2,
-    "CoreTelephony.framework": 1
+    "CoreTelephony.framework": 1,
+    "MediaPlayer.framework": 1,
+    "AVFoundation.framework": 1,
+    "JavaScriptCore.framework": 1
 }

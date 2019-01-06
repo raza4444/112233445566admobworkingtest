@@ -88,6 +88,14 @@ module.exports = [
         "clobbers": [
             "AppVersion"
         ]
+    },
+    {
+        "file": "plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/www/YoutubeVideoPlayer.js",
+        "id": "com.bunkerpalace.cordova.YoutubeVideoPlayer.YoutubeVideoPlayer",
+        "pluginId": "com.bunkerpalace.cordova.YoutubeVideoPlayer",
+        "clobbers": [
+            "YoutubeVideoPlayer"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -101,7 +109,8 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-network-information": "2.0.1",
     "cordova-plugin-customconfigparameters": "3.0.0",
-    "cordova-plugin-appversion": "1.0.0"
+    "cordova-plugin-appversion": "1.0.0",
+    "com.bunkerpalace.cordova.YoutubeVideoPlayer": "1.0.5"
 }
 // BOTTOM OF METADATA
 });

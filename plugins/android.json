@@ -32,6 +32,9 @@
     },
     "cordova-plugin-appversion": {
       "PACKAGE_NAME": "example.admob.basic"
+    },
+    "com.bunkerpalace.cordova.YoutubeVideoPlayer": {
+      "PACKAGE_NAME": "example.admob.basic"
     }
   },
   "dependent_plugins": {}
