@@ -46,5 +46,5 @@
     <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
     <plugin name="cordova-plugin-appversion" spec="^1.0.0" />
     <plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer" spec="https://github.com/JonSmart/CordovaYoutubeVideoPlayer" />
-    
+    <preference name="YouTubeDataApiKey" value="AIzaSyD31XBoV7b6_9O9yD72n4EtoWxhFmL5Ej0" />
 </widget>
