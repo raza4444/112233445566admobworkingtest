@@ -30,6 +30,7 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="FadeSplashScreenDuration" value="400" />
     <preference name="SplashScreenBackgroundColor" value="white" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <preference name="YouTubeDataApiKey" value="AIzaSyD31XBoV7b6_9O9yD72n4EtoWxhFmL5Ej0" />
 <engine name="android" spec="^7.1.1" /> 
 <engine name="ios" spec="^4.5.5" /> 
