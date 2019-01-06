@@ -50,5 +50,29 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-network-information": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-network-information"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-customconfigparameters": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-customconfigparameters"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-appversion": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-appversion"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

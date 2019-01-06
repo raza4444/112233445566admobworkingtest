@@ -18,6 +18,15 @@
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="CustomConfigParameters">
+        <param name="android-package" value="org.apache.cordova.customconfigparameters.CustomConfigParameters" />
+    </feature>
+    <feature name="RareloopAppVersion">
+        <param name="android-package" value="com.rareloop.cordova.appversion.RareloopAppVersion" />
+    </feature>
     <name>Umer App Test</name>
     <content src="index.html" />
     <access origin="*" />

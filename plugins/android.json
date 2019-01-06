@@ -23,6 +23,15 @@
     },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "example.admob.basic"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "example.admob.basic"
+    },
+    "cordova-plugin-customconfigparameters": {
+      "PACKAGE_NAME": "example.admob.basic"
+    },
+    "cordova-plugin-appversion": {
+      "PACKAGE_NAME": "example.admob.basic"
     }
   },
   "dependent_plugins": {}
