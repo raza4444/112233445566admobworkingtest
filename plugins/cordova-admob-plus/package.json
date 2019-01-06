@@ -1,7 +1,7 @@
 {
   "_from": "cordova-admob-plus@^0.24.1",
   "_id": "cordova-admob-plus@0.24.1",
-  "_inBundle": false,
+  "_inBundle": true,
   "_integrity": "sha512-jx3kt4rx9SxO50NK1ZfOkSbNaQNFgL1y0RoJfhH8rhWy8YBUE15kASNHSaeBCP57CCNyZllJjXtN94PdxEqywg==",
   "_location": "/cordova-admob-plus",
   "_phantomChildren": {},
@@ -12,7 +12,7 @@
     "name": "cordova-admob-plus",
     "escapedName": "cordova-admob-plus",
     "rawSpec": "^0.24.1",
-    "saveSpec": null,
+    "saveSpec": true,
     "fetchSpec": "^0.24.1"
   },
   "_requiredBy": [
